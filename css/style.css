@@ -8,6 +8,18 @@ i{
     color: white;
     margin: 0 5px;
 }
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font: 18px;
+    cursor: pointer;
+}
 
 /* header */
 header{
@@ -66,12 +78,6 @@ img{
     padding: 5px 2px;
 }
 
-/* .bottom-left{
-    position: relative;
-    bottom: 8px;
-    left: 16px;
-} */
-
 
 
 /* footer */
@@ -84,9 +90,19 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
+.fa-share-square{
+    color: green;
+}
 
+footer i{
+    font-size: 30px;
+}
+.fa-angle-up{
+    font-size: 18px;
+}
 
 
 #endmeeting{
